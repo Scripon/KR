@@ -5,7 +5,7 @@ cron: 1 1 1 1 *
 new Env('发财挖宝');
 活动入口: 京东极速版 > 我的 > 发财挖宝
 最高可得总和为10元的微信零钱和红包
-脚本功能为: 挖宝，提现，没有助力功能，当血量剩余 1 时停止挖宝，领取奖励并提现
+脚本功能为: 挖宝，提现，没有助力功能，当血量剩余 1 时停止挖宝，领取奖励并提现 
 
 目前需要完成逛一逛任务并且下单任务才能通关，不做的话大概可得1.5～2块的微信零钱
 '''
@@ -64,7 +64,7 @@ def v4_env(env,paths):
                 break
             except:
                 pass
-    return c
+    return c 
 
 
 # 随机ua
@@ -88,7 +88,7 @@ class Judge_env(object):
         else:
             cookie_list=os.environ["JD_COOKIE"].split('&')       # 获取cookie_list的合集
         if len(cookie_list)<1:
-            print('请填写环境变量JD_COOKIE\n')
+            print('请填写环境变量JD_COOKIE\n')    
         return cookie_list
 
     def v4_cookie(self):
@@ -382,7 +382,7 @@ async def main():
         print(f'******开始【京东账号{e}】{get_pin(cookie)}******\n')
         await apDoTask(cookie)
         await happyDigHome(cookie)
-        await spring_reward_list(cookie)
+        #await spring_reward_list(cookie)
 
 
 if __name__ == '__main__':
