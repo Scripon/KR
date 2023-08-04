@@ -1,30 +1,30 @@
-# 前排置顶
-## 注意：拉取本库即代表遵守本库规则。可以选择禁用，否则请立即删除。
+### 注意注意
 
-# 前言(必看)
-## 频道：https://t.me/KingRan521
-君子慎独，不欺暗室， 卑以自牧，含章可贞。 
+1.自用，勿拉取（后果自负）
 
-大丈夫立于天地之间， 当仰天地浩然正气， 行光明磊落之事。 
+2.本项目仅用于学习使用，请下载后24小时内删除
 
-克己，慎独，守心，明性。 
+### 自动填地址
 
-以克人之心克己， 以容己之心容人。
+#### 无线类
 
-言尽于此，不想解释也不想回答！！！
+`export WX_ADDRESS="" # 变量格式：收件人@手机号@省份@城市@区县@详细地址@6位行政区划代码@邮编，需按照顺序依次填写，多个用管道符分开（6位行政区划代码自己查地图，也可用身份证号前六位）`
 
-建议不要使用本库。免生是非！！！
+`export WX_ADDRESS_BLOCK="" # 多个关键词用@分开  黑名单`
 
-建议不要使用本库。免生是非！！！
+`例子：export WX_ADDRESS="Z先生@13888888888@@江苏省@南通市@崇川区@开发区万科翡翠公园@320602@226001|K先生@13888888888@@江苏省@南通市@崇川区@开发区万科翡翠公园@320602@226001"`
 
-建议不要使用本库。免生是非！！！
+#### Jinggen(京耕)类
 
-#### 无互助池，无需配置互助码，账号之间内部互助。
+`export jd_jinggeng_address="" # 变量格式：收件人@手机号@省份@城市@区县@详细地址，需按照顺序依次填写，多个用管道符分开`
 
-### 目前大部分脚本均为加密脚本。
+`例子：export jd_jinggeng_address="Z先生@13888888888@江苏省@南通市@崇川区@开发区万科翡翠公园|K先生@13888888888@江苏省@南通市@崇川区@开发区万科翡翠公园"`
 
-#### 另外涉及开卡均有部分加密。
+#### lzkj_loreal类
 
+`export jd_lzkj_loreal_address="" # 变量格式：收件人@手机号@省份@城市@区县@详细地址，需按照顺序依次填写，多个用管道符分开`
+
+`例子：export jd_lzkj_loreal_address="Z先生@13888888888@江苏省@南通市@崇川区@开发区万科翡翠公园|K先生@13888888888@江苏省@南通市@崇川区@开发区万科翡翠公园"`
 
 ### 拉取(js py ts)青龙 config.sh 文件中修改
 
@@ -32,15 +32,17 @@ ql repo命令拉取脚本时需要拉取的文件后缀，直接写文件后缀�
 
 `RepoFileExtensions="js py ts"`
 
-神秘代码
+### 青龙面板神秘代码
 
 `ql repo https://github.com/KingRan/KR.git "jd_|jx_|jdCookie" "activity|backUp" "^jd[^_]|USER|utils|function|sign|sendNotify|ql|JDJR"`
 
 拉库失败或者拉不到更新的解决方案：
+
 `rm -rf /ql/repo/KingRan_KR && ql repo https://github.com/KingRan/KR.git "jd_|jx_|jdCookie" "activity|backUp" "^jd[^_]|USER|utils|function|sendNotify|ql|JDJR"`
 
-### 注意注意
+### Arcadia面板神秘代码
 
-本项目仅用于学习使用，请下载后24小时内删除
+`arcadia repo KR "https://github.com/KingRan/KR.git" main --updateTaskList true --whiteList "^jd_|^jx_" --blackList "wskey|CheckCK|^jd_(disable|wx|txzj_|opencard|lzkj_|dplh|jinggeng`
+
 
 
