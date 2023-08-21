@@ -1,5 +1,5 @@
 /*
-cron "0 6,13,19 * * *" jd_speed_sign_Mod.js, tag:京东特价版任务
+cron "0 5-23/2 * * *" jd_speed_sign_Mod.js, tag:京东特价版任务
 */
 //详细说明参考 https://github.com/ccwav/QLScript2.
 
