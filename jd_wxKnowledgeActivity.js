@@ -4,10 +4,6 @@
           https://lzkj-isv.isvjcloud.com/wxKnowledgeActivity/activity/activity?activityId=<活动id>
 环境变量：jd_wxKnowledgeActivity_activityUrl // 活动链接
           jd_wxKnowledgeActivity_openCard // 是否开卡，默认不开卡
-<<<<<<< HEAD
-					jd_wxKnowledgeActivity_num //运行账号数量，默认运行前7
-=======
->>>>>>> f6a1afc598f4048066169597cf4d17fe092847c9
 					jd_wxKnowledgeActivity_blacklist 黑名单 用&隔开 pin值
 					JD_LZ_OPEN // 是否开启LZ活动运行，默认运行
 					JD_CJ_OPEN // 是否开启CJ活动运行，默认运行

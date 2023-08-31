@@ -9,7 +9,7 @@
 ============Quantumultx===============
 [task_local]
 #临期京豆续命
-11 11 11 11 * jd_exchange.js, tag=临期京豆续命, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
+11 12,22 * * * jd_exchange.js, tag=临期京豆续命, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
  */
 
 const $ = new Env('临期京豆续命');
