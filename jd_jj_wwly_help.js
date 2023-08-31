@@ -10,7 +10,7 @@ export HELP_JOYPARK=""
 ============Quantumultx===============
 [task_local]
 #京东极简版-汪汪乐园助力
-1 1 1 1 * jd_jj_wwly_help.js, tag=京东极简版-汪汪乐园助力, enabled=true
+1 10,21 * * * jd_jj_wwly_help.js, tag=京东极简版-汪汪乐园助力, enabled=true
 
 */
 const $ = new Env('京东极简版-汪汪乐园助力');

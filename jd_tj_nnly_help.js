@@ -8,7 +8,7 @@ export HELP_JOYPARK=""
 ============Quantumultx===============
 [task_local]
 #特价版-牛牛乐园助力
-1 1 1 1 * jd_tj_nnly_help.js, tag=特价版-牛牛乐园助力, enabled=true
+30 11,22 * * * jd_tj_nnly_help.js, tag=特价版-牛牛乐园助力, enabled=true
 
 */
 const $ = new Env('特价版-牛牛乐园助力');
