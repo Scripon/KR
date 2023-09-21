@@ -1,6 +1,6 @@
 /**
 自动评价
-cron 21 15 * * * jd_comment.js
+cron 21 11,15,20 * * * jd_comment.js
 搬运fake
 */
 const $ = new Env('带图评价');
