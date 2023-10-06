@@ -764,6 +764,10 @@ async function showMsg() {
 	if ($.JoyRunningAmount) 
 		ReturnMessage += `【汪汪赛跑】${$.JoyRunningAmount}元\n`;
 
+	console.log("定位原因 JdFarmProdName: " + $.JdFarmProdName + ".");
+	console.log("定位原因 JdtreeEnergy: " + $.JdtreeEnergy + ".");
+	console.log("定位原因 treeState: " + $.treeState + ".");
+	console.log("定位原因 JdwaterD: " + $.JdwaterD + ".");
 	if ($.JdFarmProdName != "") {
 		if ($.JdtreeEnergy != 0) {
 			if ($.treeState === 2 || $.treeState === 3) {
