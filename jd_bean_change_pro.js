@@ -1774,7 +1774,7 @@ async function getjdfruit() {
 					llgeterror = false;
 					if (safeGet(data)) {
 						$.farmInfo = JSON.parse(data)
-							console.log("$.farmInfo: " + $.farmInfo)
+							console.log("$.farmInfo: ", $.farmInfo)
 							if ($.farmInfo.farmUserPro) {
 								$.JdFarmProdName = $.farmInfo.farmUserPro.name;
 								$.JdtreeEnergy = $.farmInfo.farmUserPro.treeEnergy;
